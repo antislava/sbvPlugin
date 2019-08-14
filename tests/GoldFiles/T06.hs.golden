@@ -1,4 +1,3 @@
-
 [SBV] tests/T06.hs:10:1 Proving "f", using Z3.
 [Z3] Falsifiable. Counter-example:
   x = -128 :: Int8

@@ -1,4 +1,3 @@
-
 [SBV] tests/T42.hs:9:1 Proving "f", using Z3.
 [Z3] Falsifiable. Counter-example:
   xs_1 = 10 :: Int64

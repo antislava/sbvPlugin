@@ -1,3 +1,2 @@
-
 [SBV] tests/T48.hs:100:1-16 Proving "mergeSortCorrect", using Z3.
 [Z3] Q.E.D.

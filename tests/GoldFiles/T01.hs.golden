@@ -1,4 +1,3 @@
-
 [SBV] tests/T01.hs:14:1 Proving "f", using Z3.
 [Z3] Falsifiable. Counter-example:
   x =  3.154305138180841e-292 :: Double

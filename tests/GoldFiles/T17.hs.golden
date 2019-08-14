@@ -1,8 +1,6 @@
-
 [SBV] tests/T17.hs:14:1 Proving "f", using Z3.
 [Z3] Falsifiable. Counter-example:
   x = 0 :: Int64
-
   g :: Int64 -> Int64
   g 1 = 0 
   g _ = -1

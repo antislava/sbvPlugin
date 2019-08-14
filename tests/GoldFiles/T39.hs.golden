@@ -1,4 +1,3 @@
-
 [SBV] tests/T39.hs:9:1 Proving "f", using Z3.
 [Z3] Falsifiable. Counter-example:
   p_1 = -1 :: Int64

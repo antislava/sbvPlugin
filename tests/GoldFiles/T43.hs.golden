@@ -1,9 +1,6 @@
-
 [SBV] tests/T43.hs:13:1 Proving "t", using Z3.
 [Z3] Q.E.D.
-
 [SBV] tests/T43.hs:19:1 Proving "r", using Z3.
-
 [SBV] tests/T43.hs:19:1 Skipping proof. Unsupported case-expression (with-complicated-alternatives-during-merging):
                            case == @ Int $fEqInt x (I# 0#) of {
   False -> : @ Int x (: @ Int x (: @ Int x (: @ Int x ([] @ Int))));

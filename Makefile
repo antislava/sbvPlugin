@@ -11,7 +11,7 @@ EXTRAOPTS = "--ghc-options=-Werror -Wall"
 ifeq ($(shell uname -s),Darwin)
     TIME = /usr/bin/time caffeinate
 else
-    TIME = /usr/bin/time
+    TIME = $$(which time)
 endif
 
 .PHONY: all install test vtest sdist clean docs gold hlint tags
@@ -28,7 +28,7 @@ install: $(DEPSRCS) Makefile
 	@$(CABAL) register
 
 test: install
-	$(TIME) $(CABAL) test
+	$(TIME) $(CABAL) new-test
 	@rm -rf tests/GoldFiles/*.current
 
 vtest: install
